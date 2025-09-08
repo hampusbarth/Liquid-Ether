@@ -5,10 +5,10 @@ import { useEffect, useRef } from "react";
 
 type Props = {
   className?: string;
-  color?: [number, number, number]; // RGB, 0..1
-  mouseReact?: boolean;
-  amplitude?: number;
-  speed?: number;
+  color?: [0.9, 1, 1]; // RGB, 0..1
+  mouseReact?: false;
+  amplitude?: 0.1;
+  speed?: 1;
 };
 
 export default function Iridescence({
