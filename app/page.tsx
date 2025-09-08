@@ -5,7 +5,7 @@ export default function Home() {
         GROW ONLINE
         <br />
         <span className="text-green-400">Look Great Doing It.</span>
-      </h1>
+      </h1> 
     </main>
   );
 } 
